@@ -12,7 +12,7 @@ int main(void) {
   scanf("%f", &tBase);
 
   result = (tAltura * tBase) *5;
-  printf("O preço ficou em: %f\n", tBase);
+  printf("O preço ficou em R$: %.2f\n", result);
 
   return (0);
 }
