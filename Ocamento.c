@@ -1,4 +1,5 @@
-// Faça um algoritmo para calcular  quantos metros de madeira serão necessários e o preço a pagar para emoldurar um quadro cujas dimensões são fornecidas pelo usuário. Sabe-se que o preço do metro da madeira custa R$ 5,00
+// Faça um algoritmo para calcular  quantos metros de madeira serão necessários e o preço a pagar para emoldurar um quadro cujas dimensões
+//são fornecidas pelo usuário. Sabe-se que o preço do metro da madeira custa R$ 5,00
 
 #include <stdio.h>
 
