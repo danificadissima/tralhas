@@ -11,7 +11,7 @@ float reajuste = 0.12;
    scanf("%f", &vAntigo);
   vAtual = (vAntigo * reajuste) + vAntigo;
 
-printf("O valor atual da passagem é %.2f:\n", vAtual);
+printf("O valor atual da passagem é R$ %.2f:\n", vAtual);
 
   return 0;
 }
