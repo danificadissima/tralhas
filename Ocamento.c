@@ -3,8 +3,6 @@
 
 #include <stdio.h>
 
-#include <stdio.h>
-
 float tAltura, tBase, result;
 float metro = 5.00;
 
