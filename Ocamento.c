@@ -3,13 +3,15 @@
 
 #include <stdio.h>
 
+#include <stdio.h>
+
 float tAltura, tBase, result;
 float metro = 5.00;
 
 int main(void) {
-  printf("Digite a alturado quadro: %f \n", tAltura); 
+  printf("Digite a alturado quadro:"); 
   scanf("%f",  &tAltura);
-  printf("Digite o tamanho do quadro: %f\n", tBase);
+  printf("Digite o tamanho do quadro:");
   scanf("%f", &tBase);
 
   result = (tAltura * tBase) *5;
