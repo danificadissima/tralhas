@@ -1,3 +1,6 @@
+//Faça um programa que mostre o sucessor e o antecessor de um número inteiro fornecido pelo usuário.
+
+
 #include<stdio.h>
 #include<math.h>
 int main(void)
