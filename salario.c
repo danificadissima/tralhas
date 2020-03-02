@@ -47,3 +47,24 @@ float salarioMin, horasTrabalhadas, salarioFinal, valorHora, salarioBruto, impos
   return 0;
 }
 
+
+
+// Faça um programa que receba o salário de um funcionário e o percentual de aumento 
+//calcule e mostre o valor do aumento e o novo salário.
+
+#include <stdio.h>
+
+
+int main() {
+float salario, perc;
+
+
+  printf("Insira o valor do salário : \n");
+	scanf ("%f", &salario);
+  printf("Insira o percentual de aumento: \n");
+	scanf ("%f", &perc);
+
+  printf(" Salario liquido é de: %f \n", salarioFinal );
+
+  return 0;
+}
