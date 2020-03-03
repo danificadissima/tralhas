@@ -56,15 +56,19 @@ float salarioMin, horasTrabalhadas, salarioFinal, valorHora, salarioBruto, impos
 
 
 int main() {
-float salario, perc;
+float salario, perc, novoSalario;
 
 
   printf("Insira o valor do salário : \n");
 	scanf ("%f", &salario);
   printf("Insira o percentual de aumento: \n");
 	scanf ("%f", &perc);
+  perc= (perc / 100)*100;
+  novoSalario = salario + perc;
+  
+  printf(" O valor de aumento é de R$: %2.f \n",perc );
 
-  printf(" Salario liquido é de: %f \n", salarioFinal );
+  printf(" O novo salario é %f \n", novoSalario );
 
   return 0;
 }
