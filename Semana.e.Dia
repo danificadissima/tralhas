@@ -1,0 +1,26 @@
+// Faça um programa que leia o número de dias decorrido em um evento e exiba na tela o mesmo valor
+// expresso em números de semanas e número de dias. Por exemplo, se um usuário fornecer o valor 19, o
+// programa deve exibir: “2 semanas e 5 dias”.
+
+
+#include<stdio.h>
+
+main()
+
+{
+
+int numero, semana, dia;
+
+printf("digite a quantidade de dias");
+
+scanf("%i",&numero);
+
+semana= numero /7;
+dia= numero %7;
+
+
+printf("o valor de semana é:%i",semana);
+
+printf("o valor de dias é:%i",dia);
+
+}
