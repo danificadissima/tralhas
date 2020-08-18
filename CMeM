@@ -1,0 +1,27 @@
+// Faça um programa que leia a altura (em centímetros) de uma pessoa e exiba-a em metros e
+// centímetros.
+// Ex: 120  1m 20cm
+
+
+
+#include<stdio.h>
+
+main()
+
+{
+
+int valor, metros,cm;
+
+printf("informe o valor em cm");
+
+scanf("%i",&valor);
+
+metros=valor/100;
+cm= valor%100;
+
+
+printf("o valor em metro eh:%i",metros);
+
+printf("o valor em centimetros eh:%i",cm);
+
+}
